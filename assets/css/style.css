@@ -39,10 +39,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled a{
-  color: #1e4356;
+  color: #fff;
 }
 #header.header-scrolled {
-  background:#f0f6f8 ;
+  background:#0f292f;
   height: 60px;
   padding: 10px 0;
 }
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 110vh;
+  height: 107vh;
   overflow: hidden;
   position: relative;
 }
@@ -418,7 +418,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     top: 0;
     width: 200%;
     height: 95%;
-   
   }
   #hero::before {
     left: 50%;
@@ -531,11 +530,12 @@ section {
 
 #breaker {
 	background: #cccccc;
+	
 }
 
 #breaker .row{
 	position: relative;
-	left: 6%;
+	left: ;
 }
 
 #breaker .breaker-btn {
@@ -547,6 +547,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 20px;
+  background:#fff;
 }
 
 .services .icon-box {
@@ -554,7 +555,7 @@ section {
   position: relative;
   overflow: hidden;
   margin: 0  0 40px 0;
-  background: #1e4356;
+  background: #14a098;
   box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -583,15 +584,16 @@ section {
 }
 
 .services .title a {
-  color: #ffff;
+  color: #fff;
 }
 
 .services .description {
   font-size: 12px;
   line-height: 28px;
+  font-weight: 700px;
   margin-bottom: 0;
   text-align: left;
-  
+  color: #000;
 }
 
 .services .icon-box-pink .icon {
@@ -608,7 +610,7 @@ section {
 }
 
 .services .icon-box-cyan .icon i {
-  color: #bf9000;
+  color: #cb2d6f;
 }
 
 .services .icon-box-cyan:hover {
@@ -666,6 +668,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.about {
+	background: #14a098 ;
+	color: rgb(255, 255, 255);
+}
+
 .about h3 {
   font-weight: 400;
   font-size: 26px;
@@ -933,13 +941,13 @@ button:focus {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 30px;
+  background: #501f38	
 }
 
 .contact .info-box {
-  	
+  background: #cccccc;	
   color:#1e4356;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
 }
@@ -967,9 +975,10 @@ button:focus {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+
   padding: 30px;
   margin-bottom: 30px;
+  background: #cccccc;	
 }
 
 .contact .php-email-form .validate {
@@ -1041,7 +1050,7 @@ button:focus {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background:#1e4356;
+  background:#cb2d6f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1099,8 +1108,4 @@ button:focus {
 .content {
 	font-size: 13px;
 	text-align: left;
-}
-
-.about {
-	background: ;
 }
