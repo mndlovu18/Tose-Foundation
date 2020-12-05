@@ -507,7 +507,7 @@ section {
 #breaker {
 	background: #cb2d6f;
 	width: 100%;
-	
+	color: #cccccc
 }
 
 #breaker .row{
@@ -516,9 +516,14 @@ section {
 }
 
 #breaker .breaker-btn {
-	background: #cccccc;
-	border: #cb2d6f solid 2px;
+	background-color: transparent;
+	border: #cccccc solid 2px;
 }
+.breaker-btn a {
+	color: #cccccc;
+	display: block;
+}
+
 
 @media (max-width: 768px) {
   #breaker{
@@ -540,8 +545,11 @@ section {
 # Our Services
 --------------------------------------------------------------*/
 .services {
-  padding-bottom: 20px;
   background:#fff;
+}
+
+.services h2{
+	color:#0f292f;
 }
 
 .services .icon-box {
@@ -669,7 +677,6 @@ section {
 	background: #14a098 ;
 	color: rgb(255, 255, 255);
 }
-
 .about h3 {
   font-weight: 400;
   font-size: 26px;
@@ -685,9 +692,9 @@ section {
 }
 
 .about ul i {
-  font-size: 20px;
+  font-size: 25px;
   padding-right: 4px;
-  color: #bf9000;
+  color: #501f3a;
 }
 
 .about p:last-child {
@@ -792,87 +799,6 @@ section {
   margin-right: 12px;
   margin-top: -5px;
 }
-
-/*
-.testimonials {
-  padding: 60px 0;
-  background: #1e4356;
-  padding: 0 0 30px 0;
-  color:  #1e4356;
-  font-size: 14px;
-	
-}
-
-.profile-pic {
-    width: 100px !important;
-    height: 100px;
-    box-shadow: 0px 4px 8px 0px #BDBDBD
-}
-
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev {
-    background: 0 0;
-    color: #1E88E5 !important;
-    border: none;
-    padding: 5px 20px !important;
-    font: inherit;
-    font-size: 50px !important
-}
-
-.owl-carousel .owl-nav button.owl-next:hover,
-.owl-carousel .owl-nav button.owl-prev:hover {
-    color: #0D47A1 !important;
-    background-color: transparent !important
-}
-
-.owl-dots {
-    display: none
-}
-
-button:focus {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline-width: 0
-}
-
-.item {
-    display: none
-}
-
-.next {
-    display: block !important;
-    position: relative;
-    transform: scale(0.8);
-    transition-duration: 0.3s;
-    opacity: 0.6
-}
-
-.prev {
-    display: block !important;
-    position: relative;
-    transform: scale(0.8);
-    transition-duration: 0.3s;
-    opacity: 0.6
-}
-
-.item.show {
-    display: block;
-    transition-duration: 0.4s
-}
-
-@media screen and (max-width: 999px) {
-
-    .next,
-    .prev {
-        transform: scale(1);
-        opacity: 1
-    }
-
-    .item {
-        display: block !important
-    }
-} */
 
 
 /*--------------------------------------------------------------
@@ -1183,29 +1109,87 @@ button:focus {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
-  padding: 0 0 30px 0;
+  background: #0f292f;
   color: #fff;
-  font-size: 14px;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
+  font-size: 10px;
 }
 
 #footer .credits {
-  padding-top: 10px;
-  text-align: center;
+  background: #091e22;
+}
+
+.newsletter-subscribe {
+  color: #313437;
+  padding: 50px 0;
+}
+
+.newsletter-subscribe p {
+  color: #7d8285;
+  line-height: 1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+}
+
+.newsletter-subscribe form {
+  justify-content: center;
+}
+
+.newsletter-subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+
+.newsletter-subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
   font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity: 1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform: translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color: #cb2d6f !important;
   color: #fff;
+  outline: none !important;
 }
 
-
-.name {
-	color: #fff;
-}
-.content {
-	font-size: 13px;
-	text-align: left;
-}

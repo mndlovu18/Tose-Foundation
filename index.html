@@ -31,14 +31,14 @@
   <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 	
-
+	<!-- Animated File -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
  
 </head>
 
 
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container">
@@ -52,9 +52,8 @@
         <ul >
           <li><a href="index.html"><span>Home</span></a></li>
           <li><a href="#abt">About Us</a></li>
-          <li><a href="services.html" >Our Program</a></li>
-         <!-- <li><a href="#" >Partners</a></li>-->
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#program">Our Program</a></li>
+          <li><a href="#contacts">Contact Us</a></li>
 		   <li><a href="#" class="bg-color p-2">Donate</a></li>		
         </ul>
       </nav><!-- .nav-menu -->
@@ -69,17 +68,14 @@
       <!-- Slide 1 -->
       <div class="carousel-item active" >
         <div class="carousel-container">
-         <!-- <h2 class="animate__animated animate__fadeInDown">STEP UP FOR CHANGE, <br> <span>ZIMBABWE</span></h2> -->
           <p class="animate__animated animate__fadeInUp">Connecting talent to opportunities and resources</p>
 		  <a href="" target="" class="btn-get-started animate__animated animate__fadeInUp">Subscribe</a>	
-          
         </div>
       </div>
 
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <!--<h2 class="animate__animated animate__fadeInDown">OUR MISSION</h2>-->
           <p class="animate__animated animate__fadeInUp">Inspiring entrepreneurial imagination and creativity in the youth of Zimbabwe</p>
 		 <a href="" target="" class="btn-get-started animate__animated animate__fadeInUp">Subscribe</a>	
          
@@ -89,7 +85,6 @@
       <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <!--<h2 class="animate__animated animate__fadeInDown">OUR VISION</h2>-->
           <p class="animate__animated animate__fadeInUp">Building a generation of proactive leaders</p>
            <a href="" target="" class="btn-get-started animate__animated animate__fadeInUp">Subscribe</a>
         </div>
@@ -107,26 +102,12 @@
 
     </div>
   </section><!-- End Hero -->
-	
- <!-- ======= Section ======= --
-	<section id="breaker" class="mt-5 p-3">
-	 	<div class="container m-0 p-0">
-			<div class="row justify-content-center text-uppercase m-0 p-0">
-				<div class="col-lg-2 breaker-btn m-2"><a>Contact Us</a></div>
-				<div class=" col-lg-2 breaker-btn m-2"><a>Subscribe</a></div>
-			    <div class="col-lg-2 breaker-btn m-2"><a>Donate</a></div>
-			</div>
-		</div>
-	
-	</section>
-	<!-- End About Section -->
  <!-- ======= About Section ======= -->
 	
 <section id="abt" class="about mt-0 pb-5 p-2">
       <div class="container">
-        <div class="row justify-content-center">
-			<div class="col-xs-2 mb-3"><h5>About</h5></div>
-		</div>
+      <h2 class="text-center p-3">About</h2>
+	  <hr >	  
         <div class="row justify-content-center">
           <div class="col-lg-12 pt-4 pt-lg-0 ">
             <p class="font-italic">
@@ -150,21 +131,21 @@
 	
 	
 	<!-- ======= Section ======= -->
-	<section id="breaker" class="mt-5 p-5">
-	 	
+	<section id="breaker" class="mt p-5">
+	 	   <h5 class="text-center mb-5 text-uppercase">Join Us Today!</h5>
 			<div class="row justify-content-center text-uppercase m-0 p-0">
-				<div class="col-lg-2 breaker-btn m-2"><a>Contact Us</a></div>
-				<div class=" col-lg-2 breaker-btn m-2"><a>Subscribe</a></div>
-			    <div class="col-lg-2 breaker-btn m-2"><a>Donate</a></div>
+				<div class="col-lg-2 breaker-btn mr-2 py-2 text-center" data-aos="zoom-out"><a href="mailto:support@tosefoundation.com">Contact Us</a></div>
+				<div class=" col-lg-2 breaker-btn mr-2 py-2 text-center" data-aos="zoom-out"><a href="#">Subscribe</a></div>
+			    <div class="col-lg-2 breaker-btn mr-2 py-2 text-center" data-aos="zoom-out"><a href="#">Donate</a></div>
 			</div>
 
 	
 	</section>
 	<!-- End About Section -->
 	 <!-- ======= Services Section ======= -->
-    <section class="services">
+    <section id="program"class="services pb-0">
+	  <h2 class="text-center text-uppercase pb-5">What our Program Encompasses</h2> 
       <div class="container">
-
         <div class="row">
 		<div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-cyan text-white">
@@ -235,12 +216,11 @@
 
       </div>
 	</div>
-    </section><!-- End Services Section -->
-
-<div class="testimonials-clean">
+	
+	<div class="testimonials-clean">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Testimonials </h2>
+                <h2 class="text-center text-uppercase">Testimonials </h2>
                 <p class="text-center description"> Hear from students who attended our Pre-departure Orientation program for Zimbabweans going to study abroad for the first time.</p>
             </div>
             <div class="row people">
@@ -273,8 +253,11 @@
                 </div>
             </div>
         </div>
+    </section><!-- End Services Section -->
+
+
     <!-- ======= Contact Section ======= -->
-    <section class="contact" >
+    <section id="contacts" class="contact" >
       <div class="container">
 
         <div class="row">
@@ -342,42 +325,28 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
-	 <!-- ======= Tetstimonials Section ======= --
-	
-	<section class="testimonials  container-fluid px-3 px-sm-5 text-center">
-    <p class="mb-3 pt-3 text-white">Hear from students who attended our Pre-departure Orientation program</p>
-    <div class="owl-carousel owl-theme">
-        <div class="item first prev">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="assets/img/Proud.jpeg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6>Proud Mpala, Stanford '24</h6>
-                <p class="content">The event gave me the opportunity to engage with other Zimbabwean students in the US.I enjoyed playing online games which helped me build meaning friendships that I still hold deer up to this day. The experiences that were shared during the orientation were — and still are — useful, especially when going through some difficult time it is comforting and inspiring to remember that other people overcame it and useful to understand how they overcame those challenges. I would recommend the event to the incoming students for the next academic year.</p>
+ <footer id="footer">
+	 <div class="row">
+   <div class="col-lg-12 newsletter-subscribe">	 
+            <div class="intro">
+                <h1 class="text-center mb-0 pb-0 text-uppercase">Newsletter Signup</h1>
+                <p class="text-center mt-0 pt-0">Subcribe to our newslater to receive the latest updates</p>
             </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-				<div class="row justify-content-center"> <img src="assets/img/shandu.jpeg" class="img-fluid profile-pic rounded-circle mb-4 mt-3"> </div>
-                <h6 >Shandukurai Chiuswa, Dartmouth '24</h6>
-                <p class="content">One of the things I feared about coming into the US was not being able to really manage the few savings I had from home. Attending the orientation program that was organized by Tose gave me the assurance that I could be careful with how I managed my funds in the early stages of my college career by prioritizing my expenses into needs and wants. That has saved me a lot of money thanks to this program!</p>
-            </div>
-        </div>
-        <div class="item next">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6>Student 3</h6>
-                <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item last">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6 >Student 4</h6>
-                <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
+            <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+            </form>
+	 </div>	
+	 </div>		 
+    <div class="credits p-3">
+      <div class="copyright mb-0 p-0 text-center">
+       Copyright &copy; 2020 <strong><span>Tose Foundation</span></strong>. All Rights Reserved
+      </div>
+      <div class=" mt-0 pt-0 text-center">
+        Designed by <a href="https://mndlovu.surge.sh/" target="_blank">Minolta Ndlovu</a>
+      </div>
     </div>
-</section> <!-- End Ttstimonials Section -->	
+  </footer><!-- End Footer -->
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
