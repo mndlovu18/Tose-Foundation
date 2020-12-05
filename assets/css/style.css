@@ -520,6 +520,22 @@ section {
 	border: #cb2d6f solid 2px;
 }
 
+@media (max-width: 768px) {
+  #breaker{
+    display: none;
+  
+  }
+ 
+}
+
+@media (max-width: 575px) {
+  #breaker{
+    display: none;
+  
+  }
+ 
+}
+
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
