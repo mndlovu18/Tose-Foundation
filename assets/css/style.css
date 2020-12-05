@@ -1193,3 +1193,17 @@ section {
   outline: none !important;
 }
 
+@media (max-width: 768px) {
+  #breaker{
+    display: none;
+  
+  }
+ 
+}
+
+@media (max-width: 575px) {
+  #breaker{
+    display: none;
+  
+  }
+
