@@ -703,7 +703,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Tetstimonials
+# Tetstimonials #eef4f7
 --------------------------------------------------------------*/
 
 .testimonials-clean {
@@ -962,8 +962,12 @@ section {
   background: #501f38	
 }
 
+.contact h2 {
+	color: #eef4f7;
+}
+
 .contact .info-box {
-  background: #cccccc;	
+  background: #eef4f7;	
   color:;
   text-align: center;
   padding: 20px 0 30px 0;
@@ -996,7 +1000,7 @@ section {
 
   padding: 30px;
   margin-bottom: 30px;
-  background: #cccccc;	
+  background: #eef4f7;	
 }
 
 .contact .php-email-form .validate {
@@ -1083,7 +1087,7 @@ section {
 }
 
 .form-bg{
-	background: #cccc;
+	background: #eef4f7;
     border: #14a098 solid 2px;
 }
 
@@ -1128,14 +1132,11 @@ section {
   line-height: 1.5;
 }
 
-.newsletter-subscribe h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 25px;
+.newsletter-subscribe h1 {
   line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
-  color: inherit;
+  color: #eef4f7;
 }
 
 .newsletter-subscribe .intro {
@@ -1194,10 +1195,15 @@ section {
 }
 
 @media (max-width: 768px) {
-  #breaker{
-    display: none;
-  
-  }
+	.newsletter-subscribe .intro h1 {
+		font-size: 30px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+  font-size: 12px;
+}
+
  
 }
 
