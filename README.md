@@ -1,9 +1,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[[Tose Foundation Official Website](https://tosefoundation.netlify.app/)
+[Tose Foundation Official Website](https://tosefoundation.netlify.app/)
 
-Hi! Welcome to my project that I built for [[Tose Foundation](https://tosefoundation.netlify.app/). Tose Foundation is a non-profit organization that was founded in September, 2020 by four college students from various backgrounds and majors who are passionate about providing access to educational opportunities to students from less privileged backgrounds in Zimbabwe. 
+Hi! Welcome to my project that I built for [Tose Foundation](https://tosefoundation.netlify.app/). Tose Foundation is a non-profit organization that was founded in September, 2020 by four college students from various backgrounds and majors who are passionate about providing access to educational opportunities to students from less privileged backgrounds in Zimbabwe. 
 
 ### Built With
 
@@ -41,8 +41,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@your_twitter](https://twitter.com/minolta_ndlovu) - minoltandlovu@gmail.com
+Minolta Ndlovu: [@minolta_twittwer](https://twitter.com/minolta_ndlovu) - minoltandlovu@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/mndlovu18/Tose2)
 
