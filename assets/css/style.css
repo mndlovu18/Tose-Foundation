@@ -5,7 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #1e4356;
-	background-color: #fff;
+  background-color: #fff;
 	
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background:#045174;
 }
 
 #header.header-transparent {
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
 }
 #header.header-scrolled {
-  background:#0f292f;
+  background:#045174;
   height: 60px;
   padding: 10px 0;
 }
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #14A098;
+  color: #e87a00;
   text-decoration: none;
 }
 
@@ -81,6 +81,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   list-style: none;
 }
 
+.nav-menu .bg-color {
+	background: #e87a00;
+}
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
@@ -207,9 +210,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 500;
 }
 
-.bg-color{
-	background-color: #cb2d6f;
-}
+
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #a2cce3;
@@ -302,7 +303,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient( rgba(15, 51, 59, 0.81), rgba(203, 45, 111, 0.4)), url("../img/kids.jpg") center no-repeat;
+  background: linear-gradient(rgba(0, 31, 61, 0.64), rgba(232, 122, 0, 0.25) ), url("../img/kids.jpg") center no-repeat;
   background-size: 1300px ;	
   z-index: 0;
   border-radius: ;
@@ -365,11 +366,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #cccccc;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #cb2d6f;
+  border: 2px solid #e87a00;
 }
 
 #hero .btn-get-started:hover {
-  background: #cb2d6f;
+  background: #e87a00;
   text-decoration: none;
 }
 
@@ -404,102 +405,38 @@ h1, h2, h3, h4, h5, h6, .font-primary {
  
 }
 
-
 /*--------------------------------------------------------------
-# Sections General
+# About
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-}
 
-.section-bg {
-  background-color: #f3f8fa;
- 	
+.about {
+	background: #e87a00;
+	color: #001f3d;
 }
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.section-title h2 {
-  font-size: 28px;
+.about h2 {
   font-weight: 400;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
+  color: #045174;	
 }
 
-.section-title h2::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
+.about ul {
+  list-style: none;
+  padding: 0;
 }
 
-.section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #68A4C4;
-  bottom: 0;
-  left: calc(50% - 20px);
+.about ul li {
+  padding-bottom: 10px;
 }
 
-.section-title p {
+.about ul i {
+  font-size: 25px;
+  padding-right: 4px;
+  color: #045174;
+}
+
+.about p:last-child {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background-color: #f3f8fa;
-  min-height: 40px;
-}
-
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
 /*--------------------------------------------------------------
 # Breaker
 --------------------------------------------------------------*/
@@ -545,11 +482,11 @@ section {
 # Our Services
 --------------------------------------------------------------*/
 .services {
-  background:#fff;
+  background-color: #eef4f7;
 }
 
 .services h2{
-	color:#0f292f;
+	color:#045174;
 }
 
 .services .icon-box {
@@ -557,7 +494,7 @@ section {
   position: relative;
   overflow: hidden;
   margin: 0  0 40px 0;
-  background: #14a098;
+ background-color: #fff;
   box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -581,12 +518,11 @@ section {
 
 .services .title {
   font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .services .title a {
-  color: #fff;
+  color: #045174;
 }
 
 .services .description {
@@ -595,110 +531,16 @@ section {
   font-weight: 700px;
   margin-bottom: 0;
   text-align: left;
-  color: #000;
-}
-
-
-
-.services .icon-box-pink .icon {
-  background: #fff;
-}
-
-.services .icon-box-pink:hover {
-  border-color: #fceef3;
- 
+  color: #045174;
 }
 
 .services .icon-box-cyan .icon {
   background: #fff;
+
 }
 
 .services .icon-box-cyan .icon i {
-  color: #cb2d6f;
-}
-
-.services .icon-box-cyan:hover {
-  border-color: #3fcdc7;
-}
-
-.services .icon-box-green .icon {
-  background: #fff;
-}
-
-.services .icon-box-green:hover {
-  border-color: #41cf2e;
-}
-
-.services .icon-box-blue .icon {
-  background: #fff;
-}
-
-.services .icon-box-blue:hover {
-  border-color: #2282ff;
-}
-
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .row + .row {
-  margin-top: 100px;
-}
-
-.features h3 {
-  font-weight: 400;
-  font-size: 24px;
-}
-
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-
-.features ul li {
-  padding-bottom: 10px;
-}
-
-.features ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #68A4C4;
-}
-
-.features p:last-child {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-
-.about {
-	background: #14a098 ;
-	color: rgb(255, 255, 255);
-}
-.about h3 {
-  font-weight: 400;
-  font-size: 26px;
-}
-
-.about ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about ul li {
-  padding-bottom: 10px;
-}
-
-.about ul i {
-  font-size: 25px;
-  padding-right: 4px;
-  color: #501f3a;
-}
-
-.about p:last-child {
-  margin-bottom: 0;
+  color: #e87a00;
 }
 
 
@@ -707,17 +549,12 @@ section {
 --------------------------------------------------------------*/
 
 .testimonials-clean {
-  color: #313437;
-  background-color: #eef4f7;	
-}
-
-.testimonials-clean p {
-  color: #7d8285;
+  color: #fff;
+  background-color: #e87a00;	
 }
 
 .testimonials-clean h2 {
   font-weight: bold;
-  margin-bottom: 40px;
   padding-top: 40px;
   color: inherit;
 }
@@ -756,7 +593,7 @@ section {
 
 .testimonials-clean .item .box {
   padding: 30px;
-  background-color: #fff;
+  background-color: #d89c60;
   position: relative;
 }
 
@@ -769,7 +606,7 @@ section {
   height: 0;
   border: 15px solid transparent;
   border-width: 12px 15px;
-  border-top-color: #fff;
+  border-top-color: #d89c60;
 }
 
 .testimonials-clean .item .author {
@@ -784,191 +621,28 @@ section {
 }
 
 .testimonials-clean .item .title {
-  font-size: 13px;
-  color: #9da9ae;
+  font-size: 10px;
 }
 
 .testimonials-clean .item .description {
   font-size: 15px;
   margin-bottom: 0;
+  color: #fff;	
 }
-
-.testimonials-clean .item img {
-  max-width: 40px;
-  float: left;
-  margin-right: 12px;
-  margin-top: -5px;
-}
-
-
-/*--------------------------------------------------------------
-# Service Details
---------------------------------------------------------------*/
-.service-details {
-  padding-bottom: 10px;
-}
-
-.service-details .card {
-  border: 0;
-  padding: 0 30px;
-  margin-bottom: 60px;
-  position: relative;
-}
-
-.service-details .card-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
-  overflow: hidden;
-  z-index: 9;
-  border-radius: 0;
-}
-
-.service-details .card-img img {
-  max-width: 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.service-details .card-body {
-  z-index: 10;
-  background: #fff;
-  border-top: 4px solid #fff;
-  padding: 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
-  transition: 0.3s;
-}
-
-.service-details .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.service-details .card-title a {
-  color: #1e4356;
-  transition: 0.3s;
-}
-
-.service-details .card-text {
-  color: #5e5e5e;
-}
-
-.service-details .read-more a {
-  color: #777777;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  transition: 0.3s;
-}
-
-.service-details .read-more a:hover {
-  color: #68A4C4;
-}
-
-.service-details .card:hover img {
-  transform: scale(1.1);
-}
-
-.service-details .card:hover .card-body {
-  border-color: #68A4C4;
-}
-
-.service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
-}
-
-
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-.team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: -40px;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: bottom ease-in-out 0.4s;
-  text-align: center;
-  background: rgba(30, 67, 86, 0.8);
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  color: #fff;
-  margin: 0 10px;
-  padding-top: 8px;
-  display: inline-block;
-}
-
-.team .member .social a:hover {
-  color: #68A4C4;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin: 15px 0 5px 0;
-  font-size: 18px;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: #68A4C4;
-}
-
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #666;
-}
-
-.team .member:hover .social {
-  bottom: 0;
-  opacity: 1;
-  transition: bottom ease-in-out 0.4s;
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 30px;
-  background: #501f38	
+  background-color: #eef4f7;	
 }
 
 .contact h2 {
-	color: #eef4f7;
+	color: rgb(4, 81, 116);
 }
 
 .contact .info-box {
-  background: #eef4f7;	
-  color:;
+  background: #045174;	
   text-align: center;
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
@@ -976,15 +650,15 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #cb2d6f;
+  color: #e87a00;
   border-radius: 50%;
   padding: 8px;
-  border: 2px solid #cb2d6f;
+  border: 2px solid #e87a00;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #14a098;
+  color: #eef4f7;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -993,6 +667,7 @@ section {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
+  color: #eef4f7;	
   margin-bottom: 0;
 }
 
@@ -1056,9 +731,7 @@ section {
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
- 
-	
+  font-size: 14px;	
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
@@ -1075,7 +748,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background:#cb2d6f;
+  background:#e87a00;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1088,7 +761,7 @@ section {
 
 .form-bg{
 	background: #eef4f7;
-    border: #14a098 solid 2px;
+    border: #045174 solid 2px;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1113,13 +786,13 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0f292f;
+  background: #000;
   color: #fff;
   font-size: 10px;
 }
 
 #footer .credits {
-  background: #091e22;
+  background: #000;
 }
 
 .newsletter-subscribe {
