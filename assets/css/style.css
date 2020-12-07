@@ -554,8 +554,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Tetstimonials #eef4f7
 --------------------------------------------------------------*/
 
-.testimonials-clean {
-  height: 90vh;	
+.testimonials-clean {	
   color: #fff;
   background:#f95700ff;
   background-size: 1300px;	
