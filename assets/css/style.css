@@ -301,7 +301,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero::after{
-
   content: '';
   position: absolute;
   left: 50%;
@@ -335,7 +334,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero p {
-  width: ;
+
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
@@ -389,10 +388,20 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 @media (max-width: 768px) {
+  #hero p {
+  color:#ffffffb3;
+  font-size: 20px;
+  font-weight: 700;	
+}
+#hero .carousel-container {
+  right: 0%;	
+}	
+	
   #hero::after {
     width: 180%;
     height: 100%;
-  
+    background-size:cover;
+	background-position: right;
   }
  
 }
