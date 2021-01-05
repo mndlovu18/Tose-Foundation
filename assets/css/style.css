@@ -389,6 +389,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (max-width: 768px) {
   #hero p {
+  display: none;
   color:#ffffffb3;
   font-size: 20px;
   font-weight: 700;	
