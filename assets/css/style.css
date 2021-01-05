@@ -317,9 +317,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 
 #hero .carousel-container {
-  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   position: relative;
-  right: 10%;	
+  right: 20%;	
 }
 
 #hero h2 {
