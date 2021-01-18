@@ -117,7 +117,11 @@ path {
 @media (max-width: 767.98px) {  }
 
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+	.head {
+		height: 60vh;
+	}
+	
    .breaker h1 {
    font-size: 10vw;
   	}
@@ -130,6 +134,10 @@ path {
 	.breaker h1 {
    font-size: 6vw;
   	}
+	
+	.head {
+		height: 80vh;
+	}
 }
 
 /*--------------------------------------------------------------
