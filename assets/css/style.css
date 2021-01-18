@@ -76,13 +76,14 @@ path {
 }
 
 #header.header-scrolled a{
-  color: brown;
+  color: white;
+ 	
 }
 #header.header-scrolled {
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);	
-  background:#fff;
-  height: 60px;
-  padding: 10px 0;
+  background:#000;
+  height: ;
+  padding: ;
 }
 
 #header #logo h1 {
@@ -108,6 +109,27 @@ path {
 
 #main {
   margin-top: 80px;
+}
+
+@media (max-width: 575.98px) { ... }
+
+
+@media (max-width: 767.98px) {  }
+
+
+@media (max-width: 991.98px) { 
+   .breaker h1 {
+   font-size: 10vw;
+  	}
+   .breaker .all-tose {
+	 font-size: 4vw;
+	}	
+}
+
+@media (max-width: 1199.98px) {
+	.breaker h1 {
+   font-size: 6vw;
+  	}
 }
 
 /*--------------------------------------------------------------
@@ -151,7 +173,6 @@ path {
   padding:5px 5px;
  		
 }
-
 
 /* Mobile Navigation */
 .mobile-nav {
