@@ -115,14 +115,11 @@ path {
    font-size: 40px;
   	}
 	
-	.head {
-		height: 80vh;
-	}
 }
 
 @media (max-width: 991.98px) {
 	.head {
-		height: 70vh;
+		height: 80vh;
 	}
 	
    .breaker h1 {
