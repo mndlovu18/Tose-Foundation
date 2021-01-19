@@ -1,4 +1,3 @@
-
 !(function($) {
   "use strict";
 
@@ -266,4 +265,17 @@ document.getElementById('form')
       alert(JSON.stringify(err));
     });
 });
+
+let animation = anime({
+  targets: '.tose-statement',
+  translateX: 200,
+  rotate: {
+    value: 360,
+    easing: 'easeInOutSine'
+  },
+  direction: 'alternate',	
+});
+
+
+
 

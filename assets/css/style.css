@@ -98,7 +98,7 @@ path {
 }
 
 #header #logo h1 a, #header .logo h1 a:hover {
-  color: #f9570f;
+  color: rgb(249, 87, 15);
   text-decoration: none;
 }
 
@@ -551,7 +551,7 @@ path {
 }
 
 .services .icon-box-cyan .icon i {
-  color: #f95700ff;
+  color: #f9570f;
 }
 
 
@@ -664,7 +664,7 @@ path {
 }
 
 .contact h2 {
-	color: #00a4ccff;
+	color: rgb(0, 164, 207);
 }
 
 .contact .info-box {

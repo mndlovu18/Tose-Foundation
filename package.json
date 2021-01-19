@@ -30,6 +30,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.15.1",
+        "animejs": "^3.2.1",
         "bootstrap": "4.5.3",
         "googleapis": "^39.2.0",
         "jquery": "3.5.1"
