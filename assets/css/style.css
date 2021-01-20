@@ -8,13 +8,7 @@ body {
   background-color: #fff;
 	overflow-x: hidden; 
 }
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
 
-}
 
 a {
   color: #4fa6d5;
@@ -116,6 +110,15 @@ path {
 #main {
   margin-top: 80px;
 }
+
+#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
 @media (max-width: 1199.98px) {
 	.breaker h1 {
    font-size: 40px;
@@ -126,6 +129,10 @@ path {
 @media (max-width: 991.98px) {
 	.head {
 		height: 70vh;
+	}
+	
+	#myVideo {
+		height: 70vh
 	}
 	
    .breaker h1 {
