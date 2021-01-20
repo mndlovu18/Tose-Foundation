@@ -8,6 +8,13 @@ body {
   background-color: #fff;
 	overflow-x: hidden; 
 }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+
+}
 
 a {
   color: #4fa6d5;
@@ -27,7 +34,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 .head {
 	height: 100vh;
-	background: #1d809f;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
