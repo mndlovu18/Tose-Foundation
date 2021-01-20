@@ -164,7 +164,7 @@ path {
   float: left;
 }
 
-.nav-menu a {
+.nav-menu a, .nav-menu form{
   display: block;
   position: relative;
   color: #fff;

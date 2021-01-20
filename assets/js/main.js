@@ -267,7 +267,7 @@ document.getElementById('form')
 });
 
 let animation = anime({
-  targets: '.tose-statement',
+  targets: '',
   translateX: 200,
   rotate: {
     value: 360,
