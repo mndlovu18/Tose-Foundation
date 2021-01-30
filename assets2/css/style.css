@@ -33,12 +33,12 @@ body::before {
 }
 
 a {
-  color: #ff0000;
+  color:  #f9570f;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff3333;
+  color:  #f9570f;
   text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 15px;
+  right: 100px;
   bottom: 15px;
   z-index: 99999;
 }
@@ -74,13 +74,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  background: #ff0000;
+  background:  #f9570f;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #f00000;
+  background:  #f9570f;
   color: #fff;
 }
 
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  border-top: 5px solid  #f9570f;
 }
 
 #header .countdown div h3 {
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff0000;
+  background:  #f9570f;
   color: #fff;
   transition: 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -297,18 +297,18 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
-.about .content h2 {
+.about .content h1 {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 50px;
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 
-.about .content h3 {
-  font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
+.about .content h2 {
+  font-weight: 700;
+  line-height: ;
+  font-size: 48px;
 }
 
 .about .content ul {
@@ -326,7 +326,7 @@ section {
   top: 12px;
   position: absolute;
   font-size: 20px;
-  color: #ff0000;
+  color:  #f9570f;
 }
 
 .about .content p:last-child {
@@ -392,12 +392,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #ff0000;
+  background:  #f9570f;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ff0000;
+  background:  #f9570f;
   color: #fff;
 }
 
@@ -496,7 +496,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ff0000;
+  background:  #f9570f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
