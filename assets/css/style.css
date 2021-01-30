@@ -47,18 +47,19 @@ a:hover {
   text-decoration: none;
 }
 
-
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Roboto", sans-serif;
+}
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .head {
 	height: 100vh;
-	background: #045174;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-
 
 path {
 	width: 30px;
@@ -69,11 +70,27 @@ path {
 	top: 25%;
 	
 }
+
+.breaker h1 {
+   font-size: 60px;
+   color: #000;	
+}
+
+.breaker .line-seperator {
+	float: left;
+}
+
+.breaker .all-tose {
+	color: #fff;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
 #header {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background:rgba(4, 81, 116, 0.37);
+  background:rgba(0, 0, 0, 0.56);
  	
 }
 
@@ -123,8 +140,6 @@ path {
 }
 
 #myVideo {
-  	
-  background: #045174;
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -132,8 +147,6 @@ path {
   left: 0;
   position: absolute;
 }
-
-
 @media (max-width: 1199.98px) {
 	.breaker h1 {
    font-size: 40px;
@@ -150,38 +163,6 @@ path {
 		height: 70vh
 	}
 	
-   
-}
-
-@media (max-width: 767.98px) {  }
-
-@media (max-width: 575.98px) { ... }
-
-/*--------------------------------------------------------------
-# Breaker
---------------------------------------------------------------*/
-.breaker #tose-statement {
-	font-family: 'Poppins', sans-serif;
-}
-
-.breaker h1 {
-   font-size: 60px;
-   color: #000;	
-}
-
-.breaker .line-seperator {
-	float: left;
-}
-
-.breaker .all-tose {
-	color: #fff;
-	display: inline;
-	margin: 0px;
-	padding: 0px;
-	font-weight: bold;
-}
-
-@media (max-width: 991.98px) {
    .breaker h1 {
    font-size: 9vw;
   	}
@@ -190,6 +171,10 @@ path {
 	 margin-top: 30px;
 	}	
 }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 575.98px) { ... }
 
 
 
@@ -375,6 +360,46 @@ path {
   margin-bottom: 0;
 }
 
+/*--------------------------------------------------------------
+# Breaker
+--------------------------------------------------------------*/
+
+#breaker {
+	background: #cb2d6f;
+	width: 100%;
+	color: #cccccc
+}
+
+#breaker .row{
+	position: relative;
+	width: 100%;
+}
+
+#breaker .breaker-btn {
+	background-color: transparent;
+	border: #cccccc solid 2px;
+}
+.breaker-btn a {
+	color: #cccccc;
+	display: block;
+}
+
+
+@media (max-width: 768px) {
+  #breaker{
+    display: none;
+  
+  }
+ 
+}
+
+@media (max-width: 575px) {
+  #breaker{
+    display: none;
+  
+  }
+ 
+}
 
 /*--------------------------------------------------------------
 # Our Services
