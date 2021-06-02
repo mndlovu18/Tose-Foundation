@@ -1,0 +1,55 @@
+.donate {
+  background-color: #f9570f;
+  color: #f8f8f8;
+  overflow: hidden;
+}
+
+.breadcrumbs-donate {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.51)),
+    url(../img/student-images/student-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  color: #f8f8f8;
+}
+.breadcrumbs-donate .container1 {
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+
+.breadcrumbs-donate .container1 .tose-about h1 {
+  font-weight: 700;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs-donate {
+    margin-top: 63px;
+  }
+}
+
+.breadcrumbs-donate h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.breadcrumbs-donate p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.donate b {
+  font-size: 25px;
+  font-weight: 600;
+}
+.donate p {
+}
+
+.donate .donate-btn {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f9570f;
+  background-color: #f8f8f8;
+}

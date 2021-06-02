@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.breadcrumbs-program {
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.51)),
+    url(../img/student-images/student-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f8f8f8;
+}
+
+.breadcrumbs-program .container {
+  position: relative;
+  top: 50%;
+  left: 5%;
+}
+.program {
+  background-color: #f8f8f8;
+}
+.program .section-header h1 {
+  color: #f9570f;
+  font-weight: 700;
+}
+.program #header-program-options h1 {
+  color: #f8f8f8;
+  font-weight: 700;
+}
+
+.program .heading p {
+  color: #f9570f;
+  font-weight: 700;
+}
+
+.program .program-options {
+  background-color: #f9570f;
+}
+
+.card-body h5 {
+  font-weight: 700;
+}
+/*--------------------------------------------------------------
+# Our Strategy
+--------------------------------------------------------------*/
+.strategy {
+  background: #f9570f;
+}
+.strategy #strategy-title p {
+  color: #f8f8f8;
+}
+.strategy .icon {
+  color: #f8f8f8;
+}
+.strategy .title {
+  color: #f9570f;
+}
+.strategy .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.strategy .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.strategy .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.strategy .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.strategy .title a {
+  color: #111;
+}
+
+.strategy .description {
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.strategy .icon-box .icon {
+  background: #f9570f;
+}
+
+.strategy .icon-box:hover {
+  border-color: #f9570f;
+}
