@@ -404,7 +404,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-header.masthead {
+#masthead {
   width: 100%;
   height: 90vh;
   position: relative;
@@ -412,7 +412,7 @@ header.masthead {
   background-size: cover;
   background-attachment: scroll;
 }
-header.masthead:before {
+#masthead:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -422,7 +422,7 @@ header.masthead:before {
   bottom: 0;
   opacity: 0.5;
 }
-header.masthead h1 {
+#masthead h1 {
   margin: 0;
   font-size: 45px;
   font-weight: 700;
@@ -430,7 +430,8 @@ header.masthead h1 {
   color: #f8f8f8;
   font-family: "Poppins", sans-serif;
 }
-header.masthead .btn-get-started {
+
+#masthead .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -444,26 +445,26 @@ header.masthead .btn-get-started {
   color: #f8f8f8;
 }
 
-header.masthead .btn-get-started:hover {
+#masthead .btn-get-started:hover {
   background: #f9570f;
   border: 2px solid #f9570f;
 }
 
-header.masthead h2 {
+#masthead h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
 @media (max-width: 767.98px) {
-  header.masthead {
+  #masthead {
     height: 100vh;
   }
-  header.masthead h1 {
-    font-size: 32px;
+  #masthead h1 {
+    font-size: 35px;
     line-height: 36px;
   }
-  header.masthead h2 {
+  #masthead h2 {
     font-size: 18px;
     line-height: 24px;
   }
@@ -534,15 +535,12 @@ section {
   height: 40vh;
   color: #f8f8f8;
 }
-.breadcrumbs .container1,
-.breadcrumbs-program .container1 {
+.breadcrumbs .container {
   position: relative;
   top: 30%;
-  left: 5%;
 }
 
-.breadcrumbs .container1 .tose-about h1,
-.breadcrumbs-program .container1 .tose-about h1 {
+.breadcrumbs .container .tose-about h1 {
   font-weight: 700;
   font-size: 60px;
   font-weight: 700;
@@ -556,14 +554,12 @@ section {
   }
 }
 
-.breadcrumbs h2,
-.breadcrumbs-program h2 {
+.breadcrumbs h2 {
   font-size: 32px;
   font-weight: 500;
 }
 
-.breadcrumbs p,
-.breadcrumbs-program p {
+.breadcrumbs p {
   font-size: 14px;
   margin-bottom: 0;
 }
