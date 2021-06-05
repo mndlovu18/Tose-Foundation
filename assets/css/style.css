@@ -448,7 +448,42 @@ header.masthead .btn-get-started:hover {
   border: 2px solid #f9570f;
 }
 
-#hero {
+header.masthead h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+@media (max-width: 575.98px) {
+  header.masthead {
+    background: no-repeat center center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header.masthead {
+    height: 100vh;
+  }
+  header.masthead h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  header.masthead h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+/* #hero {
   width: 100%;
   height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.479)),
@@ -479,12 +514,6 @@ header.masthead .btn-get-started:hover {
   font-family: "Poppins", sans-serif;
 }
 
-#hero h2 {
-  color: #eee;
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -502,41 +531,12 @@ header.masthead .btn-get-started:hover {
 #hero .btn-get-started:hover {
   background: #f9570f;
   border: 2px solid #f9570f;
-}
+} */
 .img-src {
   color: #f9570f;
   padding-top: 10px;
   font-weight: 600;
   font-size: small;
-}
-
-@media (max-width: 575.98px) {
-}
-
-@media (max-width: 767.98px) {
-  #hero {
-    height: 100vh;
-  }
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-
-@media (max-width: 991.98px) {
-}
-
-@media (max-width: 1199.98px) {
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
 }
 
 /*--------------------------------------------------------------
