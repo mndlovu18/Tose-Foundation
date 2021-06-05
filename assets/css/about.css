@@ -148,3 +148,8 @@
     padding: 6px 18px;
   }
 }
+@media (max-width: 595px) {
+  #disparities .section-title p {
+    font-size: 25px;
+  }
+}

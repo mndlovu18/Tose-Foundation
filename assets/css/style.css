@@ -145,9 +145,10 @@ h6 {
   max-height: 40px;
 }
 
-@media (max-width: 992px) {
-  #header .logo {
-    font-size: 28px;
+@media (max-width: 575.98px) {
+  #header .logo a {
+    font-size: 23px;
+    font-weight: 600;
   }
 }
 
@@ -454,15 +455,12 @@ header.masthead h2 {
   font-size: 24px;
 }
 
-@media (max-width: 575.98px) {
-}
-
 @media (max-width: 767.98px) {
   header.masthead {
     height: 100vh;
   }
   header.masthead h1 {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 36px;
   }
   header.masthead h2 {
@@ -470,65 +468,6 @@ header.masthead h2 {
     line-height: 24px;
   }
 }
-
-@media (max-width: 991.98px) {
-}
-
-@media (max-width: 1199.98px) {
-}
-
-@media (min-width: 1024px) {
-}
-
-/* #hero {
-  width: 100%;
-  height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.479)),
-    url("../img/student-images/student-4.jpg");
-  background-size: cover;
-}
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .container {
-  padding-top: 72px;
-}
-
-#hero h1 {
-  margin: 0;
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 46px;
-  color: #f8f8f8;
-  font-family: "Poppins", sans-serif;
-}
-
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 2px 2px 2px 2px;
-  transition: 0.5s;
-  margin-top: 30px;
-  border: 2px solid #f8f8f8;
-  color: #f8f8f8;
-}
-
-#hero .btn-get-started:hover {
-  background: #f9570f;
-  border: 2px solid #f9570f;
-} */
 .img-src {
   color: #f9570f;
   padding-top: 10px;
@@ -625,6 +564,11 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
+@media (max-width: 595px) {
+  .section-title p {
+    font-size: 25px;
+  }
+}
 /*--------------------------------------------------------------
 # Disparities
 --------------------------------------------------------------*/
@@ -670,12 +614,23 @@ section {
   padding-right: 10px;
   color: rgb(29, 94, 119);
 }
+@media (max-width: 595px) {
+  #disparities .section-title p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 595px) {
+  #disparities .section-title {
+    padding-bottom: 0px;
+  }
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(4, 36, 49, 0.658), rgba(4, 28, 37, 0.658)),
-    url(../img/student-images/student-1.jpg) fixed center center;
+    url(../img/student-images/student-1.jpg);
+  background-position: center;
   background-size: cover;
   padding: 60px 0;
 }
