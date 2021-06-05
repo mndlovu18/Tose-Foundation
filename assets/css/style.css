@@ -627,12 +627,29 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
-.cta {
+/* .cta {
   background: linear-gradient(rgba(4, 36, 49, 0.658), rgba(4, 28, 37, 0.658)),
-    url(../img/student-images/student-1.jpg) fixed;
+    url(../img/student-images/student-1.jpg);
   background-position: center;
   background-size: cover;
   padding: 60px 0;
+} */
+.cta::before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: linear-gradient(rgba(4, 36, 49, 0.658), rgba(4, 28, 37, 0.658)),
+    url(../img/student-images/student-1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
 
 .cta h3 {
