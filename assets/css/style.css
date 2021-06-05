@@ -407,7 +407,7 @@ header.masthead {
   width: 100%;
   height: 90vh;
   position: relative;
-  background-repeat: no-repeat;
+  background: no-repeat center center;
   background-size: cover;
   background-attachment: scroll;
 }
@@ -455,9 +455,6 @@ header.masthead h2 {
 }
 
 @media (max-width: 575.98px) {
-  header.masthead {
-    background: no-repeat center center;
-  }
 }
 
 @media (max-width: 767.98px) {
