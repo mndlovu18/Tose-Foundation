@@ -469,12 +469,15 @@ header.masthead h2 {
   }
 }
 .img-src {
+  background-color: #fff;
   color: #f9570f;
   padding-top: 10px;
   font-weight: 600;
   font-size: small;
 }
-
+.img-src p {
+  padding-left: 20px;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
