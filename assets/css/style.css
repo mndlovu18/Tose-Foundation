@@ -629,7 +629,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(4, 36, 49, 0.658), rgba(4, 28, 37, 0.658)),
-    url(../img/student-images/student-1.jpg);
+    url(../img/student-images/student-1.jpg) fixed;
   background-position: center;
   background-size: cover;
   padding: 60px 0;
