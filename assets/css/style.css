@@ -548,12 +548,6 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 63px;
-  }
-}
-
 .breadcrumbs h2 {
   font-size: 32px;
   font-weight: 500;
@@ -564,7 +558,16 @@ section {
   margin-bottom: 0;
 }
 @media (max-width: 595px) {
-  .section-title p {
+  .breadcrumbs .container .tose-about h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 324px) {
+  .breadcrumbs .container .tose-about h1 {
+    font-size: 40px;
+  }
+}
+.section-title p {
     font-size: 25px;
   }
 }
