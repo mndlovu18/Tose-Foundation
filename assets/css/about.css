@@ -165,6 +165,9 @@
 #about {
   position: relative;
 }
+#about .section-title p {
+  font-size: 36px;
+}
 #about .container {
   position: relative;
   z-index: 10;
@@ -216,7 +219,7 @@
   }
 }
 @media (max-width: 595px) {
-  #disparities .section-title p {
+  #about .section-title p {
     font-size: 25px;
   }
 }
