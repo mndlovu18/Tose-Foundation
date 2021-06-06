@@ -468,6 +468,10 @@ h6 {
     font-size: 18px;
     line-height: 24px;
   }
+  #masthead .btn-get-started {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
 }
 .img-src {
   background-color: #fff;
