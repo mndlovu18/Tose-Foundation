@@ -145,14 +145,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 65px;
 }
-
-@media (max-width: 575.98px) {
-  #header .logo a {
-    font-size: 23px;
-    font-weight: 600;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -458,13 +452,17 @@ h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+svg {
+  height: 30px;
+  width: 141px;
+}
 
 @media (max-width: 767.98px) {
   #masthead {
     height: 100vh;
   }
   #masthead h1 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 36px;
   }
   #masthead h2 {
@@ -472,11 +470,16 @@ h6 {
     line-height: 24px;
   }
   #masthead .btn-get-started {
+    margin-left: 20px;
     padding: 5px 10px;
-    font-size: 8px;
+    font-size: 10px;
+  }
+  svg {
+    height: 20px;
+    width: 141px;
   }
 }
-.img-src {
+/* .img-src {
   background-color: #fff;
   color: #f9570f;
   padding-top: 10px;
@@ -485,7 +488,7 @@ h6 {
 }
 .img-src p {
   padding-left: 20px;
-}
+} */
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
