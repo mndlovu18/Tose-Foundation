@@ -4,6 +4,46 @@
 #about-us {
   background-color: #f8f8f8;
 }
+.about-breadcrumbs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.51)),
+    url(../img/student-images/student-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  color: #f8f8f8;
+}
+.about-breadcrumbs .container {
+  position: relative;
+  top: 50%;
+}
+
+.about-breadcrumbs .container .tose-about h1 {
+  font-weight: 700;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 595px) {
+  .about-breadcrumbs .container .tose-about h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 324px) {
+  .about-breadcrumbs .container .tose-about h1 {
+    font-size: 40px;
+  }
+}
+.about-breadcrumbs h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.about-breadcrumbs p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
 
 #about-us .section-header h2 {
   font-size: 14px;
@@ -57,6 +97,19 @@
 #about-us .mission .mission-group {
   padding: 5px 10px;
 }
+@media (max-width: 595px) {
+  #about-us {
+    padding-top: 20px;
+  }
+  #about-us .section-header h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 324px) {
+  #about-us .section-header h3 {
+    font-size: 30px;
+  }
+}
 .values {
   background-color: #f9570f;
 }
@@ -90,6 +143,20 @@
 }
 .values ul li {
   color: #fff;
+}
+
+@media (max-width: 595px) {
+  .values {
+    padding-top: 20px;
+  }
+  .values .section-header h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 324px) {
+  .values .section-header h3 {
+    font-size: 30px;
+  }
 }
 
 /*--------------------------------------------------------------
