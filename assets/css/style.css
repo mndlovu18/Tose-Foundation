@@ -5,6 +5,8 @@ body {
   font-family: "Poppins", sans-serif;
   color: rgb(29, 94, 119);
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -125,6 +127,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  width: 100vw;
 }
 
 #header .logo {
@@ -643,11 +646,10 @@ section {
 } */
 .cta::before {
   content: "";
-  display: block;
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   z-index: -10;
   background: linear-gradient(rgba(4, 36, 49, 0.658), rgba(4, 28, 37, 0.658)),
