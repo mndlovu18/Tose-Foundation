@@ -147,6 +147,12 @@ h6 {
 #header .logo img {
   max-height: 65px;
 }
+
+@media (max-width: 595px) {
+  #header .logo img {
+    max-height: 40px;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -450,7 +456,7 @@ h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-svg {
+.site-heading svg {
   height: 30px;
   width: 141px;
 }
@@ -472,7 +478,7 @@ svg {
     padding: 5px 10px;
     font-size: 10px;
   }
-  svg {
+  .site-heading svg {
     height: 20px;
     width: 141px;
   }
