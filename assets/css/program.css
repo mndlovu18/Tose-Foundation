@@ -3,10 +3,10 @@ body {
 }
 
 .breadcrumbs-program {
-  height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.51)),
-    url(../img/student-images/student-4.jpg);
-  background-position: center;
+  height: 60vh;
+  background-image: linear-gradient(to right, #f9550f11, #331e150e),
+    url(../img/student-images/student-10.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #f8f8f8;

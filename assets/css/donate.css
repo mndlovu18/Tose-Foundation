@@ -6,11 +6,11 @@
 
 .breadcrumbs-donate {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.51)),
-    url(../img/student-images/student-4.jpg);
+    url(../img/hands2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 60vh;
   color: #f8f8f8;
 }
 .breadcrumbs-donate .container {
