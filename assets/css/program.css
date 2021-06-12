@@ -4,7 +4,7 @@ body {
 
 .breadcrumbs-program {
   height: 60vh;
-  background-image: linear-gradient(to right, #f9550f11, #331e150e),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.51)),
     url(../img/student-images/student-10.jpg);
   background-position: top;
   background-repeat: no-repeat;
