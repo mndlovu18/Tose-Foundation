@@ -89,10 +89,11 @@ body {
 # Our Strategy
 --------------------------------------------------------------*/
 .strategy {
-  background: #f9570f;
+  background: #f8f8f8;
 }
-.strategy #strategy-title p {
-  color: #f8f8f8;
+.strategy #strategy-title h1 {
+  color: #f9570f;
+  font-weight: 700;
 }
 .strategy .icon {
   color: #f8f8f8;
@@ -123,7 +124,6 @@ body {
 
 .strategy .icon i {
   font-size: 36px;
-  line-height: 1;
 }
 
 .strategy .title {
