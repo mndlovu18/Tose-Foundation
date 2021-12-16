@@ -869,3 +869,41 @@ section {
 .events .card:hover .card-body .card-title a {
   color: #f9570f;
 }
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  background-color: #f8f8f8;
+}
+
+.contact-header h1::after {
+  content: " ";
+  display: block;
+  background-color: #f9570f;
+  border: 2px solid #f9570f;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.contact .contact-header h1 {
+  color: #f9570f;
+  font-weight: 700;
+}
+
+.contact #btnContactUs {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f8f8f8;
+  background-color: #f9570f;
+}
+.contact form label {
+  font-size: 24px;
+}
+
+.contact form input,
+#subject,
+.contact textarea {
+  font-size: 15px;
+}
